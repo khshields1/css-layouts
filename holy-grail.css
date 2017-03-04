@@ -5,32 +5,35 @@ body {
   position: relative;
 }
 
-p {
-  font-size: 20px;
-  font-weight: bold;
+#container {
+  display: flex;
 }
 
 ul {
   font-weight: bold;
+  font-size: 20px;
+  list-style: none;
 }
 
-
+h1 {
+  text-align: center;
+}
 #header {
   border: solid black 4px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   background-color: lightblue;
 }
 
 #left {
-  width: 150px;
+  width: 125px;
   float: left;
   border-left: solid black 4px;
   background-color: lavender;
 }
 
 #center {
-  width: 300px;
+  width: 350px;
   padding: 10px;
   float: left;
   border-right: solid black 4px;
@@ -39,7 +42,7 @@ ul {
 }
 
 #right {
-  width: 150px;
+  width: 125px;
   float: right;
   border-right: solid black 4px;
   background-color: lavender;
@@ -48,7 +51,7 @@ ul {
 #footer {
     border: solid black 4px;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     background-color: lightblue;
     clear: both;
 }
