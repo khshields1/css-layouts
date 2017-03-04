@@ -1,0 +1,27 @@
+#chessboard {
+  width: 500px;
+  height: 500px;
+  border: solid black 10px;
+}
+
+#row-1 {
+  display: inline-block;
+}
+
+#row-2 {
+  display: inline-block;
+}
+
+.square-one {
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-color: brown;
+}
+
+.square-two {
+  float: left;
+  height: 50px;
+  width: 50px;
+  background-color: beige;
+}

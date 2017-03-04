@@ -1,0 +1,45 @@
+//---------------------------------------------------
+// Constants
+//---------------------------------------------------
+
+$errorRed: #f94e4e;
+$primaryActionColor: #2bbd23;
+$normalPadding: 10px;
+
+//---------------------------------------------------
+// Mixins
+//---------------------------------------------------
+
+@mixin buttonDefaults($bgColor) {
+  background-color: $bgColor;
+  padding: 20px;
+  border-radius: 5px;
+  margin: $normalPadding;
+}
+
+//---------------------------------------------------
+// Buttons Rules
+//---------------------------------------------------
+
+.btn {
+  @include buttonDefaults(#eee);
+}
+
+.delete-btn {
+  @include buttonDefaults($errorRed);
+}
+
+.primary-btn {
+  @include buttonDefaults($primaryActionColor);
+}
+
+//---------------------------------------------------
+// Misc
+//---------------------------------------------------
+
+.error-message {
+  color: #fff;
+  background-color: $errorRed;
+  font-weight: 600;
+  padding: $normalPadding;
+}
